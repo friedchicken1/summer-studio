@@ -6,6 +6,7 @@ displayInMenu: true
 displayInList: false
 ---
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/about.jpg)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/about1.jpg)
 # H1
 ## H2
 ### H3
