@@ -1,7 +1,9 @@
 ---
-title: "About"
+title: "About Me"
 date: 2020-01-23T13:50:23+11:00
-draft: false
+draft: false    
+displayInMenu: true
+displayInList: false
 ---
 <!DOCTYPE html>
 <html lang="en">
