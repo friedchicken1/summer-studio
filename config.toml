@@ -12,8 +12,9 @@ features = ["Responsive", "Highlight.js", "KaTeX", "Google analytics", "Disqus"]
 min_version = "0.41"
 
 [params]
-brand = "A blog of my colour"
-description = "Blog on a yellow man's experience"
+brand = "Tyrone"
+description = "A blog styled as my last name"
+bgimg = "https://github.com/friedchicken1/summer-studio/blob/master/data/img/yellowback.jpg"
 
 [author]
 name = "Joe Hutchinson"
