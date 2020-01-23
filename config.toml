@@ -12,7 +12,7 @@ features = ["Responsive", "Highlight.js", "KaTeX", "Google analytics", "Disqus"]
 min_version = "0.41"
 
 [params]
-brand = "Tyrone"
+brand = "Tyrone Huang"
 description = "A blog styled as my last name"
 bgimg = "https://www.solidbackgrounds.com/images/2560x1440/2560x1440-royal-yellow-solid-color-background.jpg"
 

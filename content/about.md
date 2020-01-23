@@ -5,18 +5,13 @@ draft: false
 displayInMenu: true
 displayInList: false
 ---
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/about.jpg)
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/about1.jpg)
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/test.png)
+## The 'Yellow' theme of this blog has a reason.
 
-Alternatively, for H1 and H2, an underline-ish style:
+It's connected to my last name, which is Huang - meaning Yellow in Chinese. 
 
-Alt-H1
-======
+Coincidentally, yellow is also one of my favourite colours - and I'm wearing one of my favourite yellow shirts here!
 
-Alt-H2
+My Chinese name (which I unforunately never really use) is 黄天龙 (huang tian long, or 'Yellow Sky Dragon). An awesome name if I would say so myself, if not also really childish to say out loud! 
+
+###### The 'Sky Dragon' component of my name is also included in themes in this blog :) 
