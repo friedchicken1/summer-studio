@@ -1,7 +1,4 @@
-baseURL = "/"
-languageCode = "en-us"
 name = "aether"
-theme = "aether"
 license = "MIT"
 licenselink = "https://github.com/josephhutch/aether/blob/master/LICENSE.md"
 description = "aether is a blog theme that emphasizes motion, material, and depth as design elements to highlight the content of your site"
