@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yellow Blog</title>
+    <link>/</link>
+    <description>Recent content on Yellow Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jan 2020 14:04:47 +1100</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week6</title>
+      <link>/week6/</link>
+      <pubDate>Thu, 23 Jan 2020 14:04:47 +1100</pubDate>
+      
+      <guid>/week6/</guid>
+      <description></description>
+    </item><item>
+      <title>Week5</title>
+      <link>/week5/</link>
+      <pubDate>Thu, 23 Jan 2020 14:04:44 +1100</pubDate>
+      
+      <guid>/week5/</guid>
+      <description></description>
+    </item><item>
+      <title>Week4</title>
+      <link>/week4/</link>
+      <pubDate>Thu, 23 Jan 2020 14:04:40 +1100</pubDate>
+      
+      <guid>/week4/</guid>
+      <description></description>
+    </item><item>
+      <title>Week3</title>
+      <link>/week3/</link>
+      <pubDate>Thu, 23 Jan 2020 14:04:31 +1100</pubDate>
+      
+      <guid>/week3/</guid>
+      <description></description>
+    </item><item>
+      <title>Week2</title>
+      <link>/week2/</link>
+      <pubDate>Thu, 23 Jan 2020 14:04:27 +1100</pubDate>
+      
+      <guid>/week2/</guid>
+      <description></description>
+    </item><item>
+      <title>Week1</title>
+      <link>/week1/</link>
+      <pubDate>Thu, 23 Jan 2020 14:04:22 +1100</pubDate>
+      
+      <guid>/week1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
