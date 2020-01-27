@@ -4,13 +4,13 @@ date: 2020-01-23T14:04:22+11:00
 draft: false
 dropCap: false
 ---
-## Creating a Blog
+## Sprint 1: Creating a Blog
 In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.
 
 I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. 
 
 ### Thinking about Installation
-As with working with any new languages or programs, there were many things to install before I could even begin on my actual work and blog content. This affected my time management as the time to setup far exceeded my initial expectations, and slowly began to overtake my time planned out for writing blog content.
+As with working with I.T related for the first time, there were many things to install before I could even begin on my actual work and blog content. This affected my time management as the time to setup far exceeded my initial expectations, and slowly began to overtake my time planned out for writing blog content.
 
 For this blog, I setup:
 
@@ -25,7 +25,7 @@ For this blog, I setup:
 - a Namecheap Domain (free from Github Education pack)
 
 #### But how did it all come together? 
-By Wednesday (22/01) I had become thoroughly lost and overwhelmed by this list despite reading and rereading the Wiki provided on the Studio's Google Teams group. I resolved to ask for clarification before I proceeded. I had no knowledge of what exactly was required to setup, and how it functioned together to make a working static site. The next day, on Thursday (23/01), I asked my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.
+By Wednesday (22/01) I had become thoroughly lost and overwhelmed by this list despite reading and rereading the Wiki provided on the Studio's Google Teams group. I resolved to ask for clarification before I proceeded. At this point I had no knowledge of what exactly was required to setup, and how it functioned together to make a working static site. The next day, on Thursday (23/01), I asked my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/whiteboardexplain.jpg)
 ##### Above: Whiteboard explanation of process by Jason Ko
@@ -55,8 +55,18 @@ His difference - he just used 'Hugo' as the build command (which was the correct
 
 
 Stuck again, I again asked one of my tutors - Jason for help on the error and found that the fix was adding a missing environmental variable. This hadn't been mentioned in the Step by Step guide - and I had not arrived to this solution in my copy-paste searches of my error codes. 
-However, it did work, and thankfully this was my last fix. Immediately after I was able to build the site successfully, but that was my last work for Sunday night. The content of this blog was left to be written on Monday, a day on which I was also working.
+
+However, it did work, and thankfully this was my last fix. 
+
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/environmental%20variable.png)
 
 
+Immediately after I was able to build the site successfully, but that was to be my last work for Sunday night. The content of this blog was left to be written on Monday, a day on which I was also working. While I had planned on running some of the wargames recommended to the class by Larry before Week 2, I'd run out of time by Monday night to complete them. 
+
+#### Perhaps, in reflection, I could've managed my time better.
+
+I could've asked all of my questions early, such as by Thursday or Friday night. Friday and Saturday were days I'd made minimal progress on this task, and I'd planned my work for this subject into a set amount of tasks per day. I'd simply run out of days by Monday to run the wargames I'd really wanted to try before the tutorials.
+
+## Learning Contract
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/learning%20portfolio.png)

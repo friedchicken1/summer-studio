@@ -22,11 +22,12 @@ Do I really want to be a programmer? What else is out there in I.T? If I had tim
 
 In the Summer of 2020 I picked up the Cybersecurity Summer Studio. My thoughts and journey through this studio will be recorded in this blog, alongside my accomplishments and difficulties. By the end of this studio -
 
-#### I hope to gain enough knowledge to concretely say - I wouldn't mind continuing pursuing this in the future, as a serious career path! 
-#### Or enough confidence to know that I've tried my best, but this isn't my cup of tea.
+#### I hope to gain enough knowledge to concretely say: I wouldn't mind continuing pursuing this in the future, as a serious career path! 
+#### Or conversely: enough confidence to know that I've tried my best, but this isn't my cup of tea.
 
-To that end, I'm aiming to learn as much about this field - about attacks, vulnerabilities, to struggle with games and much more that I can't even understand at this time. I want to be technically proficient enough to be able to think of starting to study for a certificate test. After this effort is made, I'll be at a good point to make the truly important choices for my career path.
+To that end, I'm aiming to learn as much about this field and acquire an adequate volume of technical and general knowledge. Throughout this studio I want to engage with games I've never tried before, and learn about attacks, vulnerabilities and think outside of a layman's perspective. By learning as much as I can - and acquiring an adequate volume of technical and general knowledge, I'll be on the right track to study for certificates such as OSCP. 
 
+And from then on, I'll be at a good point to decide my future path.
 #### Oh and by the way? The ‘Yellow’ theme of this blog has a reason.
 It's connected to my last name, which is Huang 黄, or Yellow in Chinese! 
 
