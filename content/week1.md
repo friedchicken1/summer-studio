@@ -7,7 +7,7 @@ dropCap: false
 ## Creating a Blog
 In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.
 
-I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. I had no choice but to blindly follow the resources and guides linked by the tutors in Microsoft teams, and to frantically google and ask around when things simply didn't work out.
+I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. I had no choice but to blindly follow the resources linked by my helpful tutors in Microsoft teams, and to frantically google and ask around when things simply didn't work out.
 
 ### Thinking about Installation
 As with working with any new languages or programs, there were many things to install before I could even begin on my actual work and blog content. For this blog, I setup:
@@ -22,7 +22,7 @@ As with working with any new languages or programs, there were many things to in
 
 This blog was required to cooperate with several Subject Learning Objectives (SLOs) - basically I have to report about specific experiences and achievements.
 
-![alt text](https://github.com/friedchicken1/summer-studio/blob/master/data/img/83081492_153671892724255_8348334190449655808_n.jpg)
+![alt text](https://github.com/friedchicken1/summer-studio/blob/master/data/img/whiteboardexplain.jpg)
 
 I spent far more time than
 

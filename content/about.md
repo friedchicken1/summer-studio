@@ -18,18 +18,17 @@ I'm Tyrone Huang, a 3rd Year UTS student studying I.T and International Studies.
 I'm majoring in Interaction Design, with a submajor in Enterprise Systems Development. These majors meant I trudged through uni doing a ton of coding assignments. It wasnt always fun or particularly interesting for me, and my motivation dipped further and further through the years.
 
 ### I started wondering - 
-Do I really want to be a programmer? What else is out there in I.T? If I had time and effort to spare, it might not be wasted branching out. Maybe I could feel out something else I might like while I was still in uni.
+Do I really want to be a programmer? What else is out there in I.T? If I had time and effort to spare, it might not be wasted branching out. Maybe I could feel out something else I might like while I was still in uni. Which led to me picking up Networking/Cybersecurity as a submajor. I've found it quite practical and interesting, if not also challenging.
 
-I picked up Networking/Cybersecurity as a submajor - which I admittedly also don't know anything about at the time.
+In the Summer of 2020 I picked up the Cybersecurity Summer Studio. My thoughts and journey through this studio will be recorded in this blog, alongside my accomplishments and difficulties. By the end of this studio -
 
-So far, I've been finding it quite practical and interesting, if not also challenging. I'm still on my journey and in the Summer of 2020 I  picked up the Cybersecurity Summer Studio. 
+#### I hope to gain enough knowledge to concretely say - I wouldn't mind continuing pursuing this in the future, as a serious career path! 
+#### Or enough confidence to know that I've tried my best, but this isn't my cup of tea.
 
-My thoughts and journey will be recorded in this blog, with all of my accomplishments and difficulties. By the end of this studio -
+To that end, I'm aiming to learn as much about this field - about attacks, vulnerabilities, to struggle with games and much more that I can't even understand at this time. I want to be technically proficient enough to be able to think of starting to study for a certificate test. After this effort is made, I'll be at a good point to make the truly important choices for my career path.
 
-#### I hope to gain enough knowledge to concretely say - I love the field of Cybersecurity! Or to have enough confidence to know that I don't want to continue this field in the future.
+#### Oh and by the way? The ‘Yellow’ theme of this blog has a reason.
+It's connected to my last name, which is Huang 黄, or Yellow in Chinese! 
 
-To that end, I'm aiming to learn as much about this field - about attacks, vulnerabilities, to struggle with games and much more that I can't even understand at this time. I want to be technically proficient enough to be able to think of starting to study for a certificate test, and I'll be able to make important choices for my career path from that point on.
-
-#### And by the way? The ‘Yellow’ theme of this blog has a reason.
-It's connected to my last name, which is Huang 黄, or Yellow in Chinese! Happily, Yellow is one of my favourite colours too.
+Happily, Yellow is one of my favourite colours too and you can catch me wearing it all the time.
 
