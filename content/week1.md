@@ -38,9 +38,15 @@ For the most part of my setup, I was following a Step by Step guide which was he
 
 Above: Step 5 of the guide, detailing setup for my site on Netlify (https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site)
 
+This configuration did not work for me, as my Netlify deploy Failed :(
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/netlify%20error.png)
+Above: Status badge indicating failure of Netlify deployment
 
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/error%20hugo.png)
+Above: Advice on Build Commands for Netlify
+
+I asked a fellow student, Nicholas Zay, on his solution to this problem, and found that his command was different -
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20fix.png)
 
