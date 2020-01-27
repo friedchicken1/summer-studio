@@ -2,6 +2,7 @@
 title: "Week4"
 date: 2020-01-23T14:04:40+11:00
 draft: false
+dropCap: false
 ---
 <!DOCTYPE html>
 <html lang="en">
