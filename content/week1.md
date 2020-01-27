@@ -7,10 +7,10 @@ dropCap: false
 ## Sprint 1: Creating a Blog
 In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.
 
-I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. 
+I'd never created a blog before, and initially I was pretty confused as to where to start and what this involved. 
 
 ### Thinking about Installation
-As with working with I.T related for the first time, there were many things to install before I could even begin on my actual work and blog content. This affected my time management as the time to setup far exceeded my initial expectations, and slowly began to overtake my time planned out for writing blog content.
+As with working with anything I.T related for the first time, there were many things to install before I could even begin on my actual work and blog content. This affected my time management as the time it took for setup far exceeded my initial expectations, and slowly began to overtake the time I had allocated for writing blog content.
 
 For this blog, I setup:
 
