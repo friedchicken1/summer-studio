@@ -10,7 +10,9 @@ In this first week of the Cybersecurity Summer Studio, I was tasked with creatin
 I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. 
 
 ### Thinking about Installation
-As with working with any new languages or programs, there were many things to install before I could even begin on my actual work and blog content. For this blog, I setup:
+As with working with any new languages or programs, there were many things to install before I could even begin on my actual work and blog content. This affected my time management as the time to setup far exceeded my initial expectations, and slowly began to overtake my time planned out for writing blog content.
+
+For this blog, I setup:
 
 - Hugo (a static site generator that uses markdown syntax)
 
@@ -22,45 +24,39 @@ As with working with any new languages or programs, there were many things to in
 
 - a Namecheap Domain (free from Github Education pack)
 
-But how did it all come together? I had to ask my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.
+#### But how did it all come together? 
+By Wednesday (22/01) I had become thoroughly lost and overwhelmed by this list despite reading and rereading the Wiki provided on the Studio's Google Teams group. I resolved to ask for clarification before I proceeded. I had no knowledge of what exactly was required to setup, and how it functioned together to make a working static site. The next day, on Thursday (23/01), I asked my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/whiteboardexplain.jpg)
+##### Above: Whiteboard explanation of process by Jason Ko
 
-He explained that all these things I'd had to setup were connected - in order to build and deploy this static site. 
+He explained that everything I'd found in the list to setup was connected - in order to build and deploy this static site. 
 
 The structure and look of the site would be built using Hugo, my files would be stored online in a Github repo, and this repo would be used by Netlify to create a site. This site wouldn't be publicly available until I setup a custom domain - to that end I acquired a domain name from Namecheap. 
 
-Everything was so much clearer after understanding this framework. After this, I was able to fearlessly get to work on correctly setting up everything I needed.
+Everything was so much clearer after understanding this framework. I now worked on setting everything up individually, and I was supported by my knowledge of how everything was meant to link together.
 
 ### Unexpected Problems
-For the most part of my setup, I was following a Step by Step guide which was helpful the whole way, until it wasn't.
+For the most part of my setup, I followed a Step by Step guide which was incredibly helpful and self-explanatory, until Sunday night (26/01), when it wasn't.
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20orig.png)
 
-Above: Step 5 of the guide, detailing setup for my site on Netlify (https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site)
+##### Above: Step 5 of the guide, my main resource for setup for my static site (https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site)
 
-This configuration did not work for me, as my Netlify deploy Failed :(
+### This configuration did not work for me, as my Netlify deploy Failed :(
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/netlify%20error.png)
-Above: Status badge indicating failure of Netlify deployment
+##### Above: Status badge indicating failure of Netlify deployment
 
+Despite copy pasting the error output and error number into Google, try as I might I was unable to find a working solution. To solve this problem (which I hoped was simple enough -it was likely a single command or directory name holding me back), I asked a fellow student from the Summer Studio, Nicholas Zay, on his solution to this problem. 
 
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/error%20hugo.png)
-Above: Advice on Build Commands for Netlify
-
-I asked a fellow student, Nicholas Zay, on his solution to this problem, and found that his command was different -
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20fix.png)
 
+His difference - he just used 'Hugo' as the build command (which was the correct command). While I was able to later confirm that this was the correct build command, it yet did not eliminate all of my errors at this time.
 
+
+Stuck again, I again asked one of my tutors - Jason for help on the error and found that the fix was adding a missing environmental variable. This hadn't been mentioned in the Step by Step guide - and I had not arrived to this solution in my copy-paste searches of my error codes. 
+However, it did work, and thankfully this was my last fix. Immediately after I was able to build the site successfully, but that was my last work for Sunday night. The content of this blog was left to be written on Monday, a day on which I was also working.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/environmental%20variable.png)
 
-
-
-
-#### This blog should engage with stakeholders
-
-
-Engage with stakeholders to identify a problem
--This means breaking down the concepts and tasks I write about into laymans terms, and demonstrating my own knowledge of the topic in succinct summary. 
-As of right now, I'm still at that layman's level of knowledge of cybersecurity and 'breaking into websites'. I would be quite lost, but I plan to work on a few games that have been recommended to me.
 
