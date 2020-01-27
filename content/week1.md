@@ -14,17 +14,28 @@ As with working with any new languages or programs, there were many things to in
 
 - Hugo (a static site generator that uses markdown syntax)
 
+- Chocolatey (a package manager that I used to install Hugo)
+
 - a Github repo (to store the files that constituted the webpages of my blog)
 
-- Netlify (to link create a site based on my Github repository)
+- Netlify (create a site based on my Github repository)
 
 - a Namecheap Domain (free from Github Education pack)
 
-This blog was required to cooperate with several Subject Learning Objectives (SLOs) - basically I have to report about specific experiences and achievements.
+But how did it all come together? I had to ask my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.
 
-![alt text](https://github.com/friedchicken1/summer-studio/blob/master/data/img/whiteboardexplain.jpg)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/whiteboardexplain.jpg)
 
-I spent far more time than
+He explained that all these things I'd had to setup were connected - in order to build and deploy this static site. 
+
+The structure and look of the site would be built using Hugo, my files would be stored online in a Github repo, and this repo would be used by Netlify to create a site. This site wouldn't be publicly available until I setup a custom domain - to that end I acquired a domain name from Namecheap. 
+
+Everything was so much clearer after understanding this framework. After this, I was able to fearlessly get to work on correctly setting up everything I needed.
+
+### Things I ran into
+
+
+
 
 #### This blog should engage with stakeholders
 
