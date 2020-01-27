@@ -32,7 +32,20 @@ The structure and look of the site would be built using Hugo, my files would be 
 
 Everything was so much clearer after understanding this framework. After this, I was able to fearlessly get to work on correctly setting up everything I needed.
 
-### Things I ran into
+### Unexpected Problems
+For the most part of my setup, I was following a Step by Step guide the whole way, until it didn't.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20orig.png)
+
+Above: Step 5 of the guide, detailing setup for my site on Netlify (https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site)
+
+
+
+
+
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20fix.png)
+
+
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/environmental%20variable.png)
 
 
 
