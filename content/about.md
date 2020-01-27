@@ -22,14 +22,14 @@ Do I really want to be a programmer? What else is out there in I.T? If I had tim
 
 I picked up Networking/Cybersecurity as a submajor - which I admittedly also don't know anything about at the time.
 
-So far, I've been finding it quite practical and interesting, if not also challenging. I'm still on my journey, and in the Summer of 2020 I eventually picked up the Cybersecurity Summer Studio. 
+So far, I've been finding it quite practical and interesting, if not also challenging. I'm still on my journey and in the Summer of 2020 I  picked up the Cybersecurity Summer Studio. 
 
 My thoughts and journey will be recorded in this blog, with all of my accomplishments and difficulties. By the end of this studio -
 
-#### I hope to gain enough knowledge to concretely say - I love the field of Cybersecurity/I have enough confidence to know that I don't want to continue this field in the future! 
+#### I hope to gain enough knowledge to concretely say - I love the field of Cybersecurity! Or to have enough confidence to know that I don't want to continue this field in the future.
 
-To that end, I'm aiming to learn as much about this field - about attacks, vulnerabilities, to struggle with games and much more that I can't even understand at this time. 
+To that end, I'm aiming to learn as much about this field - about attacks, vulnerabilities, to struggle with games and much more that I can't even understand at this time. I want to be technically proficient enough to be able to think of starting to study for a certificate test, and I'll be able to make important choices for my career path from that point on.
 
-#### By the way? The ‘Yellow’ theme of this blog has a reason.
+#### And by the way? The ‘Yellow’ theme of this blog has a reason.
 It's connected to my last name, which is Huang 黄, or Yellow in Chinese! Happily, Yellow is one of my favourite colours too.
 
