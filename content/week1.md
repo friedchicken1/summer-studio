@@ -7,7 +7,7 @@ dropCap: false
 ## Creating a Blog
 In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.
 
-I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. I had no choice but to blindly follow the resources linked by my helpful tutors in Microsoft teams, and to frantically google and ask around when things simply didn't work out.
+I'd never created a blog before, and I was incredibly lost in what this involved, and even where to even start. 
 
 ### Thinking about Installation
 As with working with any new languages or programs, there were many things to install before I could even begin on my actual work and blog content. For this blog, I setup:
@@ -33,16 +33,17 @@ The structure and look of the site would be built using Hugo, my files would be 
 Everything was so much clearer after understanding this framework. After this, I was able to fearlessly get to work on correctly setting up everything I needed.
 
 ### Unexpected Problems
-For the most part of my setup, I was following a Step by Step guide the whole way, until it didn't.
+For the most part of my setup, I was following a Step by Step guide which was helpful the whole way, until it wasn't.
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20orig.png)
 
 Above: Step 5 of the guide, detailing setup for my site on Netlify (https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site)
 
 
 
-
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/error%20hugo.png)
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20fix.png)
+
 
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/environmental%20variable.png)
