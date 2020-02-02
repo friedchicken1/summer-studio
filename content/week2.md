@@ -15,11 +15,12 @@ This week involved:
 
 ### Guest Speakers
 #### Linux
-Patrick came in on Tuesday 28/01 and discussed Linux: how he used it, and how it was used in the industry (i.e primarily Redhat Linux). He spoke with much passion of the capabilities and flexibility of customisation for Linux, and how it was viable not only for work but also at home. He recommended using Linux as our primary OS, and of learning through trial by fire by troubleshooting all the issues we would run into. 
+Patrick came in on Tuesday 28/01 and discussed Linux: how he used it, and how it was used in the industry (i.e primarily Redhat Linux). He spoke with much passion of the capabilities and flexibility of customisation for Linux, and how it was viable not only for work but also at home. He recommended using Linux as our primary OS, and to paraphrse him greatly, we would learn through trial by fire by troubleshooting all the issues we would run into. 
 
-This mode of action really was something that struck me - jumping into the deep end and learning Linux is something I can play around with at anytime. I'd always thought of it as something I would only try when I'm thinking about job hunting and tailoring skills for a specific job role. But if my interests and curiousity line up here, I could start this now.
+This mode of action really was something that struck me - jumping into the deep end and learning Linux is something I can play around with at anytime. I'd always thought of it as something I would only try when I'm thinking about job hunting and tailoring skills for a specific job role. 
 
-Beyond what I learnt in a single core I.T subject in 2017, I currently have little understanding of how Linux works. Committing to an entirely different OS would be a terrifying and frustrating experience at this stage, but it's something I need to hear or else I'd never try. It's definitely the best way to learn the most that I can.
+Beyond what I learnt in a single core I.T subject in 2017, I currently have little understanding of how Linux works. Committing to an entirely different OS would be a terrifying and frustrating experience at this stage, but thanks to Patrick I've been pointed in the right direction towards all the resources I need. But if my interests and curiousity line up here, I could start this now. This kind of thing is definitely the best way to learn the most that you can, I just have to start.
+
 
 #### Hacking through the years
 Robert Mitchell came in on Thursday 30/01, and gave much historical context and real world perspective on the cybersecurity field.
