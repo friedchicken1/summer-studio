@@ -32,20 +32,32 @@ I really enjoyed hearing all these new perspectives, but at the time I had no id
 ### Group Presentation
 I presented as a group on a cybersecurity tool named Nikto, alongside 3 groupmates. The presentation itself went smoothly, and the slides were done quite nicely thanks to formatting by group member Manish.
 
-There however were a few bumps in the road, and there are things I would do better as a team and for myself.
+On Tuesday 28/01, we assigned ourselves into our groups, decided on our tool and tentatively planned out our workflow. I recorded this as minutes in a Google Doc and shared onto the Teams app.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/2/minute.png)
 ##### Above: Minutes I recorded on Tuesday
 
-On Tuesday 28/01, we assigned ourselves into our groups, decided on our tool and tentatively planned out our timeline - which I recorded as minutes in a Google Doc and shared onto the Teams app.
+While the presentation was smooth on the most part, there are things I would do better as a team and for myself.
 
+1. We failed to open discussion about a time to finish all our parts and a time to practice. We all ended up finishing at separate times, some of us late at night. This meant it was impossible to view a completed presentation and practice until Thursday morning - right before our class.
 
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/2/teams.png
-)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/2/teams.png)
+##### Above: Google teams chat with timestamps ranging from 7pm to 8:30pm, and nothing until 9am
 
+2. We decided that each of our four group members would cover one point about the tool. We did not count on some of our points overlapping. This was brought to head especially during my research of 'What Information does it gather?', overlapping with the next point 'How can the information you gather be used?' - and this overlap caused some brief repetition during our presentation
 
-
+For a future group project, I would like for the group and myself to be more organised and accountable for time. Perhaps using an management tool such as Trello or Google Teams could achieve this goal. Given this accountability, our group would have the time and flexibility to deal with overlapping/clashing parts, and finalise preparation for the project.
 
 
 ### Learning through Wargames
-As with working with anything I.T related for the first time, there were many things to install before I could even begin on my actual work and blog content. This affected my time man
+From Thursday 28/01 onwards, we were given time and freedom to learn at our discretion, but most of us in the class were guided towards the wargames at Overthewire.org. I initially had trouble just beating the easy level of Level 0 (I was so confused how to input username and password) , but thanks to help from my tutor Max, I was able to pass it. Thankfully I learned exponentially from there.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/2/level%200.png)
+##### Above: Not knowing how to login to Level 0
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/2/level%200%20success.png)
+##### Above: Success!!!
+I worked diligently from Level 1-9 on Thursday, but busied myself with other commitments over the weekend and did not achieve the level of 20 that was recommended for me to achieve, and which I had thought to beat myself. 
+
+#### From this week onwards, my problem lies in self-motivation 
+I realised that my problem lies in self-motivation, and though I am hearing and seeing a lot while I am new to this field, I have not done enough in my own time to advance my knowledge and skills. Especially for my self-goals for Bandit on Overthewire.org, I've been leaving it as a chunk to do at the end of the week. As with my blog, I should be constantly doing sizable amounts each day, such that I build a schedule, and avoid procrastination. 
+
+Similarly for future group projects, if I begin and consistently work on my part early, I would be able to catch problems for our group before they arise. I would then have time to account for the natural delays and problems that arise suddenly in a group environment.
