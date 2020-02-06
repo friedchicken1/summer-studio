@@ -27,7 +27,7 @@ For this blog, I setup:
 #### But how did it all come together? 
 By Wednesday (22/01) I had become thoroughly lost and overwhelmed by this list despite reading and rereading the Wiki provided on the Studio's Google Teams group. I resolved to ask for clarification before I proceeded. At this point I had no knowledge of what exactly was required to setup, and how it functioned together to make a working static site. The next day, on Thursday (23/01), I asked my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.
 
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/whiteboardexplain.jpg)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/whiteboardexplain.jpg)
 ##### Above: Whiteboard explanation of process by Jason Ko
 
 He explained that everything I'd found in the list to setup was connected - in order to build and deploy this static site. 
@@ -38,18 +38,18 @@ Everything was so much clearer after understanding this framework. I now worked 
 
 ### Unexpected Problems
 For the most part of my setup, I followed a Step by Step guide which was incredibly helpful and self-explanatory, until Sunday night (26/01), when it wasn't.
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20orig.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/hugo%20orig.png)
 
 ##### Above: Step 5 of the guide, my main resource for setup for my static site (https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site)
 
 ### This configuration did not work for me, as my Netlify deploy Failed :(
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/netlify%20error.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/netlify%20error.png)
 ##### Above: Status badge indicating failure of Netlify deployment
 
 Despite copy pasting the error output and error number into Google, try as I might I was unable to find a working solution. To solve this problem (which I hoped was simple enough -it was likely a single command or directory name holding me back), I asked a fellow student from the Summer Studio, Nicholas Zay, on his solution to this problem. 
 
 
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/hugo%20fix.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/hugo%20fix.png)
 
 His difference - he just used 'Hugo' as the build command (which was the correct command). While I was able to later confirm that this was the correct build command, it yet did not eliminate all of my errors at this time.
 
@@ -59,7 +59,7 @@ Stuck again, I again asked one of my tutors - Jason for help on the error and fo
 However, it did work, and thankfully this was my last fix. 
 
 
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/environmental%20variable.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/environmental%20variable.png)
 
 
 Immediately after I was able to build the site successfully, but that was to be my last work for Sunday night. The content of this blog was left to be written on Monday, a day on which I was also working. While I had planned on running some of the wargames recommended to the class by Larry before Week 2, I'd run out of time by Monday night to complete them. 
@@ -69,4 +69,4 @@ Immediately after I was able to build the site successfully, but that was to be 
 I could've asked all of my questions early, such as by Thursday or Friday night. Friday and Saturday were days I'd made minimal progress on this task, and I'd planned my work for this subject into a set amount of tasks per day. I'd simply run out of days by Monday to run the wargames I'd really wanted to try before the tutorials.
 
 ## Learning Contract
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/learning%20portfolio.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/learning%20portfolio.png)
