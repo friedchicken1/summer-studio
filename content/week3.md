@@ -19,7 +19,6 @@ This week involved:
 
 ### New learning resources
  On Tuesday I was introduced to the OWASP juice box. This was an environment for testing web vulnerabilities, gamified into a list of challenges. Each challenge was ranked from 1 to 3 stars according to difficulty. My initial feeling in working on these challenges was like being thrown into deep water to fend myself – the environment dud bit inherently teach us how to solve its challenges, and the general knowledge I had acquired in the past few weeks did not help me here.
- 
  Alongside my other classmates who seemed to be in the same boat, I used my common sense and what resources I could find off Google and Hacksplaining to solve what challenges I could.
 
 A challenge I took on was ‘Retrieving the photo of Bjoern's cat in "melee combat-mode‘. This challenge meant that I was to reveal an image of a cat in the 'Photo wall' page of the Juice shop website. Currently the image was not displaying, and was replaced by placeholder text.
@@ -75,18 +74,14 @@ When the presentation came on Thursday, it ran smoothly. We were given 15 minute
 ##### Above: My script on Notion for the presentation. After the practice on Thursday morning, I removed the example for each Escalation category to save time.
 
 ### Natas and self study
-From Thursday to Sunday, I worked on Natas on the OvertheWire website, and used Hacksplaining and OWASP lists to make notes about the basics of Pen testing.
+From Thursday to Sunday, I worked on Natas on the OvertheWire website, and used Hacksplaining and OWASP lists to make notes about the basics of Pen testing.Unlike Bandit, Natas did not seem to require Linux, nor for me to run a Virtual machine. Initial levels were solvable by viewing page source, and finding passwords in comments.
 
-Unlike Bandit, Natas did not seem to require Linux, nor for me to run a Virtual machine. Initial levels were solvable by viewing page source, and finding passwords in comments.
-
-Notably was Lvl 2, wherein viewing page source didn't immediately give me the password. However, appending /files to the url, and opening the files directory did reveal an additional .txt file that contained the password.
+A notable level was Lvl 2, wherein viewing page source didn't immediately give me the password. However, appending /files to the url, and opening the files directory did reveal an additional .txt file that contained the password.
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/lvl%203.png)
 
-I hit a wall with Lvl 3, where the page source and page revealed nothing at all. Having been recommended to try Burp (which I had not touched as of yet), I spent the final hour or so of class installing said application. Initially, I was confused as to how intercept worked, and was frustrated when I couldn't open any webpages while I had Burp running and my proxy enabled.
+I hit a wall with Lvl 3, where the page source and page revealed nothing at all. Having been recommended to try Burp (which I had not touched as of yet), I spent the final hour or so of class installing said application. Initially, I was confused as to how intercept worked, and was frustrated when I couldn't open any webpages while I had Burp running and my proxy enabled. After asking my tutor Larry, I found that it was infact an intended functionality to read and intercecpt traffic, and I was to forward through all of the intercepted traffic before I reached a webpage. I tested this on Youtube, and while slow, it did work as intended. Having achieved this, I packed up and went home.
 
-After asking my tutor Larry, I found that it was infact an intended functionality to read and intercecpt traffic, and I was to forward through all of the intercepted traffic before I reached a webpage. I tested this on Youtube, and while slow, it did work as intended. Having achieved this, I packed up and went home.
-
-After Thursday, I feel that I failed to schedule a time each day to dedicate myself to learning Pen testing. Come Sunday, I told myself to start off easy - and taking some notes from Jason's recommended study path, took notes detailing OWASP's top 10 and ran through a bit of Hackersplain.
+Therein lay my mistake. After Thursday, I feel that I failed to schedule a time each day to dedicate myself to learning Pen testing. Come Sunday, I found that the guilt of not having done anything for the past 3 days was killing me, so I told myself to start off easy - and following from Jason's recommended study path, took notes detailing OWASP's top 10 and ran through a bit of Hackersplain.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/notes.png)
 
