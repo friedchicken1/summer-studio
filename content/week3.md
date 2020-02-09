@@ -78,3 +78,19 @@ When the presentation came on Thursday, it ran smoothly. We were able to practic
 From Thursday to Sunday, I worked on Natas on the OvertheWire website, and used Hacksplaining and OWASP lists to make notes about the basics of Pen testing.
 
 Unlike Bandit, Natas did not seem to require Linux, nor for me to run a Virtual machine. Initial levels were solvable by viewing page source, and finding passwords in comments.
+
+Notably was Lvl 2, wherein viewing page source didn't immediately give me the password. However, appending /files to the url, and opening the files directory did reveal an additional .txt file that contained the password.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/lvl%203.png)
+
+I hit a wall with Lvl 3, where the page source and page revealed nothing at all. Having been recommended to try Burp (which I had not touched as of yet), I spent the final hour or so of class installing said application. Initially, I was confused as to how intercept worked, and was frustrated when I couldn't open any webpages while I had Burp running and my proxy enabled.
+
+After asking my tutor Larry, I found that it was infact an intended functionality to read and intercecpt traffic, and I was to forward through all of the intercepted traffic before I reached a webpage. I tested this on Youtube, and while slow, it did work as intended. Having achieved this, I packed up and went home.
+
+After Thursday, I feel that I failed to schedule a time each day to dedicate myself to learning Pen testing. Come Sunday, I told myself to start off easy - and taking some notes from Jason's recommended study path, took notes detailing OWASP's top 10 and ran through a bit of Hackersplain.
+
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/notes.png)
+
+### Problem lies in scheduling and motivation
+While I'm overall satisfied with my in-class efforts and group contribution from Monday-Thursday, I'm wholly unsatisfied with how much I studied outside of class, from Thurs-Sun. I wanted to work on my practical skills much more, and make discernable progress in a pentester testing lab of some sort, as I feel my practical skills are still preliminary.
+
+I was able to increase my understanding of Web application pen testing and web vulnerabilities thanks to research his week. But I feel that my practical skills are behind, and will continue to lag behind my cohort if I do not regularly commit myself to study from now on. The next week may be rough if any new tools are introduced, and if I don't force myself to catch up and learn at a consistent pace.
