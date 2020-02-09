@@ -4,7 +4,7 @@ date: 2020-01-23T14:04:31+11:00
 draft: false
 dropCap: false
 ---
-## Sprint 3: Self-study with pentesting and Web-based Attack Last week, 
+## Sprint 3: Self-study with pentesting and Web-based Attack 
 
 This week, I was given an overview document of how to structure my learning by my tutor Jason, and had the time and resources to self-study. I was introduced to OWASP Juice Box and Natas - as testing resources, and worked on a group presentation wherein I detailed one of OWASP's top 10 web vulnerabilities.
 
