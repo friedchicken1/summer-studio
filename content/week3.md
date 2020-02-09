@@ -40,7 +40,7 @@ Temporarily, I was lost for solutions, but overheard my classmate sitting 2 seat
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/0%20star%20rating.png)
 ##### Above: Button disabled state was 'true' unless we filled out these 3 parts of the form
 
-Not by editing the stars, but by editing the button's disabled state to 'false' we were able to disable the client-side authentication on the form and submit without touching any star rating. And thus completed the 0 star review challenge. This was all I did for Monday, as class ended.
+Not by editing the stars, but by editing the button's disabled state to 'false' we were able to disable the client-side authentication on the form and submit without touching any star rating. And thus completed the 0 star review challenge. 
 
 ### Access Controls
 I worked on a group presentation detailing the OWASP web vulnerability of Broken Access Controls, with my fellow members Anthony and Dylan. The presentation was to be given on Thursday morning, and had a time limit of 6 minutes.
@@ -69,7 +69,7 @@ We used Notion to write our scripts, which let us view each others edits in real
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/impactcanva.png)
 ##### Above: Opening slide of my section of the presentation in Canva
 
-When the presentation came on Thursday, it ran smoothly. We were able to practice twice in the 15 minutes alloted to us prior the presentation, and culled our scripts on the spot to shorten the presentation time from roughly 6:05 to 5:30. Overall it was a pleasure to work with Dylan and Anthony in this presentation, and we were able to get everything done and iron things out quite early.
+When the presentation came on Thursday, it ran smoothly. We were given 15 minutes prior the presentation to prepare, and that proved essential. We practiced twice, the first time taking roughly 6 min 5 seconds (overtime), and prompting us to cut the fat from our scripts. I was able to identify unnecessary, wordy parts of my presentation and culled them, as did my groupmates, and we cut the second time to 5 minutes and 30 seconds which was more than enough. Overall it was a pleasure to work with Dylan and Anthony in this presentation, and we were able to get everything done and iron things out quite early.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/script.png)
 ##### Above: My script on Notion for the presentation. After the practice on Thursday morning, I removed the example for each Escalation category to save time.
