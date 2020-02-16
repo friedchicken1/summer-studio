@@ -1,3 +1,10 @@
+
+---
+title: "Biohazard"
+date: 2020-02-16T14:04:31+11:00
+draft: false
+dropCap: false
+---
 # Biohazard
 This writeup is still a work in progress. I’ve spent daily sessions of 2-3 hours.(including procrastination) for 3 days with my friend and classmate Dylan Tchan working through this box. We both are relatively new to pentesting and are going through everything for almost the first time. 
 
@@ -35,18 +42,29 @@ Putting this through a base 32 decoder provided me with a music sheet flag
 music_sheet{362d72deaf65f5bdc63daece6a1f676e}
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/barnoteen.png)
 I put this music sheet into the piano input, which directed me to a /secretBarRoom/
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/secretbar.png)
 This secret bar room contained a hyperlink providing a gold emblem.
 gold_emblem{58a8c41a9d08b8a4e38d02a4d7ff4843}
-I inputted the original emblem that I retained from the dining room into the new input that appeared on this page, which gave me ‘rebecca’. I initially assumed this was a ‘user’, and saved it for future use.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/goldemblem.png)
+
+I inputted the original emblem that I retained from the dining room into the new input that appeared on this page, which gave me ‘rebecca’.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/rebecca.png)
+I initially assumed this was a ‘user’, and saved it for future use.
 As the original emblem I just used came from the dining room, vice versa, I assumed the gold emblem I had just received from the secret bar room could be used back there.
 Inputting the gold emblem into the diningRoom form, I received a jumble of words. klfvg ks r wimgnd biz mpuiui ulg fiemok tqod. Xii jvmc tbkg ks tempgf tyi_hvgct_jljinf_kvc
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/diningemblem.png)
 After some trial and error, I placed this into the Cyberchef websites as a vigenere cipher, using Rebecca as a key. The key required only letters, and the jumble of letters was already contained within the input, so this was what I found to be successful.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/shieldde.png)
 The output suggested that I should add the_great_shield_key to the url back in the diningRoom, which provided me with the shield_key. This would be used later for rooms requiring said key.
-I continued down the list to diningRoom2f, which contained no hyperlinks. However, upon inspecting element I found a comment.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/shieldkey.png)
+I continued down the list to diningRoom2f, which contained no hyperlinks. 
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/dining2f.png)
+However, upon inspecting element I found a comment.
 This took a great while of trial and error, but I was able to decode it from rot13. Apparently the gem could be find by appending /sapphire to the diningRoom url:
 blue_jewel{e1d457e96cac640f863ec7bc475d48aa}
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/bluejewel.png)
 This would be used in the subsequent Tiger statue room
-*Screenshot pending* 
+
 
 Entering the Gallery room and checking out its hyperlink revealed the next stage of this challenge. I was to find 4 crests in total, with the second provided here.
 The criteria of solving this crest was that I had to decode it twice, and the output was of length 18 characters.
