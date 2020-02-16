@@ -25,11 +25,12 @@ Within the Dining room, a hyperlink provided me with an emblem: emblem{fec832623
 A form input appeared, but inputting the emblem did not work as of yet. There was nothing apparent to use this for at this time, so I saved this for future use.
 After checking source code in /diningRoom/, I found a comment which I decoded using the website CyberChef, from Base 64.
  ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/dinehint.png)
+  ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/dinehintde.png)
 The decoded output directed me to the /tearoom/, where apparently ‘The nightmare begin’
- ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/dinehintde.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/lock.png)
 This room contained yet another hyperlink, which provided me with a lockpick:
 lock_pick{037b35e2ff90916a9abf99129c8e1837}
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/lock.png)
+
 Again, not sure what to do with this at this time but I kept this information. I moved onto the art room as the text suggested me to do.
 The art room contained a hyperlink to a page with a list of rooms, called a ‘maproom’.
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/writeup/map.png)
@@ -68,6 +69,7 @@ This would be used in the subsequent Tiger statue room
 
 Entering the Gallery room and checking out its hyperlink revealed the next stage of this challenge. I was to find 4 crests in total, with the second provided here.
 The criteria of solving this crest was that I had to decode it twice, and the output was of length 18 characters.
+
 Through extensive trial and error with Cyberchef, I found that it was to be decoded from base 32 and then base 58: 
 h1bnRlciwgRlRQIHBh -crest 2
 I saved this and set out to get other crests.
@@ -75,6 +77,8 @@ I saved this and set out to get other crests.
 The Attic
 Using the shield key from earlier, I was able to enter this room.
 This contained a hyperlink which lead to crest 4. It appeared that this had no criteria to decode unlike crest 2. 
+
 gSUERauVpvKzRpyPpuYz66JDmRTbJubaoArM6CAQsnVwte6zF9J4GGYyun3k5qM9ma4s
+
 Armour Room
 Similarly to the attic, I was able to use the shield key and enter this room. This room contained a hyperlink which led to crest 3, which was to be decoded thrice.
