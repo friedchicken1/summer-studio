@@ -1,6 +1,6 @@
 ---
 title: "Week2"
-date: 2020-01-23T14:04:27+11:00
+date: 2020-02-02T14:04:27+11:00
 draft: false
 dropCap: false
 ---
