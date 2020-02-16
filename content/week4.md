@@ -98,7 +98,8 @@ The initial rooms involved inspecting page source and decoding codes in a game-l
 An entirely text-based code : klfvg ks r wimgnd biz mpuiui ulg fiemok tqod. Xii jvmc tbkg ks tempgf tyi_hvgct_jljinf_kvc
 Revealed to me that not all of cybersecurity was simply using tools, but involved trial and error and recognising patterns in code. This code was deoded as a vigenere cipher, with a key provided previously in another room.
 
-Due to time constraints and delays caused by unfamiliarity with all of these encodings, Dylan and I were unable to progress further on our box on Sunday. As a total coincidence, I was busy on Sunday and went Indoor Rock Climbing, where I happened to meet Jason (tutor), who egged me on to boulder a wall that I unsuccessfully attempted many times, and encouraged me to go home and finish this reflection after I was done climbing.
+Due to time constraints and delays caused by unfamiliarity with all of these encodings, Dylan and I were unable to progress further on our box on Sunday, and as such our writeups are incomplete.
+As a total coincidence, I was busy on Sunday and went Indoor Rock Climbing, where I happened to meet Jason (tutor), who egged me on to boulder a wall that I unsuccessfully attempted many times, and encouraged me to go home and finish this reflection after I was done climbing.
 
  ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/googleteamsclimbing.png)
  Above: Asking Jason for help in Rock Climbing after meeting him there by chance
