@@ -56,7 +56,7 @@ I found that the problem was a basic and fundamental one: I had not been using t
  re
 wfuzz -w /usr/share/wordlists/wfuzz/general/common.txt http://10.3434:3434/FUZZ
 
- ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/internal.png_)
+ ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/internal.png)
 #### Above: Finding the Internal Directory
 This displayed every directory alongside its status code – most of them being 404. After sorting through these manually, I found that the ones that were available (301) were html, css, js and internal. In this case, internal was the hidden directory I was looking for.
 
