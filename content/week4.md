@@ -30,6 +30,7 @@ In short, the demonstration covered:
 
 This process laid out in the demonstration, while I didn't know it at the time, would become more and more familiar as I interacted with other boxes. I saw that a pattern began to develop, which can also be seen in this slide from this week's learnings.
 
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/process.png)
 #### Above: Pentesting Procedure as depicted in tutorial slides
 
 Despite seeing that demonstration however, I felt like I had only gained a surface level understanding of the pentesting process, and any insights that I'd not fit into my hastily typed notes flew out of my brain quickly. I needed to try it for myself to properly understand, but I was not confident in starting.
@@ -41,21 +42,22 @@ Luckily, when I came into the classes' drop in session on Wednesday, I found Ant
 ## Recon and locating directories
 I started off using nmap: I primarily used the command nmap –sV to display the version of the server, alongside various details about open ports. However, continually I found that 0 hosts were up, though the I.P address was correct. After using nmap-Pn to search through every port to find which ones were up, I found that my host was detectable, but ultimately I still could not display open ports for said host using nmap –sV, nor could I connect to the webpage.
 
-#### Above: 0 hosts up image
-
-#### Above: nmap -Pn
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/nmap%20down.png)
+#### Above: nmap -Pn and -sV saying different things about hosts
 
 I found that the problem was a basic and fundamental one: I had not been using the tryhackme website’s vpn: OpenVpn. The box required me to connect to the website's vpn to connect. This was a quick fix once I was informed of it, but I would continually have to reconnect to this vpn every few hours, whether it was due to interference with my UTS wifi or some other unknown problems that forced me to redeploy my box.
 
  Using Nmap, I'd found an exploitable port (port 3333), which I then used in Gobuster to find a hidden directory on the webserver. Gobuster recommended me to use wordlists to identify if there were any available wordlists. However, the provided gobuster command did not work as intended.
- gobuster dir -u http://<ip>:3333 -w <word list location>
- #### gobuster picture here
+
+ ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/gobuster.png)
+ #### Above: Gobuster Command that runs for an hour
  
  The provided gobuster command would take over 1 hour (without interruption) to provide an output, in addition to thousands of error messages. In cooperation with classmates Anthony and Dylan, we were able to configure the gobster command to use more threads (thus speeding up the process and eliminating a few errors) and began filtering for desiredstatus codes (such as 301). Despite this effort, the gobuster command sitll took far too much time. Eventually, Anthony, after asking one of our tutors was able to find a more efficient command.
- 
- #### w picture here
+ re
 wfuzz -w /usr/share/wordlists/wfuzz/general/common.txt http://10.3434:3434/FUZZ
 
+ ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/internal.png_)
+#### Above: Finding the Internal Directory
 This displayed every directory alongside its status code – most of them being 404. After sorting through these manually, I found that the ones that were available (301) were html, css, js and internal. In this case, internal was the hidden directory I was looking for.
 
 
@@ -70,13 +72,19 @@ I continued going through Vulnversity with Dylan, and he suggested we join force
 On Thursday and Friday, we finished off Vulnversity in preparation of starting Biohazard late Friday night.
 A large obstacle in finishing that was of Burpsuite, in that both me and Dylan had never used it, nor its Intruder feature before. This feature was used to intercept a file uploaded with a file extension blocked by the server, and changed its extension before sending it and 'getting it past' the server's security. I encountered a minor issue that prevented me from progressing: in the form of an error stating that my payload was empty. Through continually clearing and re-adding payloads, I was able to get past this error, but I find that I cannot constantly replicate this success.
 
+ ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/chat.png)
+Above: Communication with classmate Dylan relating to Open VPN and Vulnversity
+
 Both Dylan and I then used Netcat for the first time to execute a reverse shell. Though the process was ultimately short, I had a misunderstanding in how netcat worked which greatly extended the amount of time I spent on this stage. I ran the netcat command expecting and awaiting an output that never came. I didn’t understand that Ncat itself was waiting for a payload that I executed by reaching the following ip address:
 http://<MACHINE IP>:3333/internal/uploads/reverse-php.phtml
 to generate a netcat session. When eventually I realised this and netcat output appeared, due to my newness to everything, I did not yet understand that I was on the reverse shell/the filesystem of the server. I took some to to research what exactly a reverse shell, and realised that I was already there, I could press any key to see that I was on the machine's filesystem..
 
+
 I was then to find where SUID files were stored, and had no idea what to look for. I was forced to look up a guide and use a find command to go through directories wherein permission were no denied. The answer was systemctl, but I did not understand the reasoning why. With Dylan, we went through the process and researched SUID, finding that the reasoning was that the directory was the more recently created directory, and had a naming convention of system ctl that related to how SUID altered the system. The next step to gaining root access after finding this SUID reminded me of the demo that Jason did on Monday of Wakanda box. We located this folder and added a script within it, which te server would run for us even though we did not have execute permissions. This was referred to as a cron job. 
 
 From Friday to Sunday, I got together with Dylan and communicated through Discord and Messenger to organise nightly sessions where we went through the box together.
+
+ ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/discordchat.png)
 
 We worked for 3 hours per night from 9 or 10pm to 12:30am. We found that our lack of knowledge and newness to pentesting held us back from progressing at a faster rate, but we learned much on the way. For me, the biggest obstacle was encoding, and I began to realise that there were many different types of encodings and bases, which I needed to some further research on to understand.
 
@@ -92,11 +100,16 @@ Revealed to me that not all of cybersecurity was simply using tools, but involve
 
 Due to time constraints and delays caused by unfamiliarity with all of these encodings, Dylan and I were unable to progress further on our box on Sunday. As a total coincidence, I was busy on Sunday and went Indoor Rock Climbing, where I happened to meet Jason (tutor), who egged me on to boulder a wall that I unsuccessfully attempted many times, and encouraged me to go home and finish this reflection after I was done climbing.
 
+ ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/googleteamsclimbing.png)
+ Above: Asking Jason for help in Rock Climbing after meeting him there by chance
+
 ### A week of growth
 
 This week all in all was characterised by a building of my knowledge of the web-pentesting procedure, and lots of hands-on exploitation of boxes together with my classmates.
 
 This week I thankfully put in consistent work everyday, which allowed me to pace myself and make regular progress. However, despite my cooperation with another student (Dylan),I (and we) did struggle greatly in the later stages of Vulnversity and with encoding in Biohazard. We really spent as much time progressing, as we did backstracking, researching and reading walkthroughs.
+
+Though my self-motivation has improved, and I am happy with the amount of progress I made this week, I want to be more consistent with putting in hours of research and completing exercises even when I'm not working on a box together with another person. I still procrastinate on completing writeups and reflections on the day that I complete tasks, and I should take notes while I'm going through each task, and finalise my summary of these notes at the end of each day.
 
 For next week, I would like to continue learning and building on the foundations of pentesting knowledge that I now have. I'd like to ask questions that are not so involved with the small configuration and technical issues that bothered me in the beginning of the week, and delve more into complicated exploitations.
 

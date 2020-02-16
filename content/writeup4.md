@@ -1,6 +1,7 @@
-Biohazard
+# Biohazard
 This writeup is still a work in progress. I’ve spent daily sessions of 2-3 hours.(including procrastination)  with my friend and classmate Dylan Tchan working through this box. We both are relatively new to pentesting and are going through everything for almost the first time.
-This challenge may be found on TryHackMe.com.
+
+## This challenge may be found [here](https://tryhackme.com/room/biohazard#)
 
 Starting from the Biohazard webpage on TryHackMe.com, I joined the room, initiated TryHackMe’s OpenVpn and deployed the box.
 Starting off by using an nmap scan, I was able to find 3 open ports. Port 80 was open: a port normally reserved for HTTP communication. This suggested that I could run the challenge normally through visiting the website’s HTML webpage.
