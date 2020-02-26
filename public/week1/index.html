@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Week1 &middot; Yellow Blog</title>
+  <title>Week 1 &middot; Yellow Blog</title>
   <meta name="description" content="" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
@@ -40,14 +40,60 @@
 </nav>
 
     <main class="content side-text-padding">
-      <article class="post dropcase">
+      <article class="post ">
         <header class="post-header">
-        	<h1 class="post-title">Week1</h1>
+        	<h1 class="post-title">Week 1</h1>
           <p class="post-date">Posted <time datetime="2020-01-23">Jan 23, 2020</time></p>
         </header>
         
-        <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+        <h2 id="sprint-1-creating-a-blog">Sprint 1: Creating a Blog</h2>
+<p>In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.</p>
+<p>I'd never created a blog before, and initially I was pretty confused as to where to start and what this involved.</p>
+<h3 id="thinking-about-installation">Thinking about Installation</h3>
+<p>As with working with anything I.T related for the first time, there were many things to install before I could even begin on my actual work and blog content. This affected my time management as the time it took for setup far exceeded my initial expectations, and slowly began to overtake the time I had allocated for writing blog content.</p>
+<p>For this blog, I setup:</p>
+<ul>
+<li>
+<p>Hugo (a static site generator that uses markdown syntax)</p>
+</li>
+<li>
+<p>Chocolatey (a package manager that I used to install Hugo)</p>
+</li>
+<li>
+<p>a Github repo (to store the files that constituted the webpages of my blog)</p>
+</li>
+<li>
+<p>Netlify (create a site based on my Github repository)</p>
+</li>
+<li>
+<p>a Namecheap Domain (free from Github Education pack)</p>
+</li>
+</ul>
+<h4 id="but-how-did-it-all-come-together">But how did it all come together?</h4>
+<p>By Wednesday (22/01) I had become thoroughly lost and overwhelmed by this list despite reading and rereading the Wiki provided on the Studio's Google Teams group. I resolved to ask for clarification before I proceeded. At this point I had no knowledge of what exactly was required to setup, and how it functioned together to make a working static site. The next day, on Thursday (23/01), I asked my tutor, Jason Ko - who brought me to the whiteboard and explained the whole process.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/whiteboardexplain.jpg" alt="alt text"></p>
+<h5 id="above-whiteboard-explanation-of-process-by-jason-ko">Above: Whiteboard explanation of process by Jason Ko</h5>
+<p>He explained that everything I'd found in the list to setup was connected - in order to build and deploy this static site.</p>
+<p>The structure and look of the site would be built using Hugo, my files would be stored online in a Github repo, and this repo would be used by Netlify to create a site. This site wouldn't be publicly available until I setup a custom domain - to that end I acquired a domain name from Namecheap.</p>
+<p>Everything was so much clearer after understanding this framework. I now worked on setting everything up individually, and I was supported by my knowledge of how everything was meant to link together.</p>
+<h3 id="unexpected-problems">Unexpected Problems</h3>
+<p>For the most part of my setup, I followed a Step by Step guide which was incredibly helpful and self-explanatory, until Sunday night (26/01), when it wasn't.
+<img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/hugo%20orig.png" alt="alt text"></p>
+<h5 id="above-step-5-of-the-guide-my-main-resource-for-setup-for-my-static-site-httpswwwnetlifycomblog20160921a-step-by-step-guide-victor-hugo-on-netlifybuilding-your-site">Above: Step 5 of the guide, my main resource for setup for my static site (<a href="https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site">https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/#building-your-site</a>)</h5>
+<h3 id="this-configuration-did-not-work-for-me-as-my-netlify-deploy-failed-">This configuration did not work for me, as my Netlify deploy Failed :(</h3>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/netlify%20error.png" alt="alt text"></p>
+<h5 id="above-status-badge-indicating-failure-of-netlify-deployment">Above: Status badge indicating failure of Netlify deployment</h5>
+<p>Despite copy pasting the error output and error number into Google, try as I might I was unable to find a working solution. To solve this problem (which I hoped was simple enough -it was likely a single command or directory name holding me back), I asked a fellow student from the Summer Studio, Nicholas Zay, on his solution to this problem.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/hugo%20fix.png" alt="alt text"></p>
+<p>His difference - he just used &lsquo;Hugo&rsquo; as the build command (which was the correct command). While I was able to later confirm that this was the correct build command, it yet did not eliminate all of my errors at this time.</p>
+<p>Stuck again, I again asked one of my tutors - Jason for help on the error and found that the fix was adding a missing environmental variable. This hadn't been mentioned in the Step by Step guide - and I had not arrived to this solution in my copy-paste searches of my error codes.</p>
+<p>However, it did work, and thankfully this was my last fix.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/environmental%20variable.png" alt="alt text"></p>
+<p>Immediately after I was able to build the site successfully, but that was to be my last work for Sunday night. The content of this blog was left to be written on Monday, a day on which I was also working. While I had planned on running some of the wargames recommended to the class by Larry before Week 2, I'd run out of time by Monday night to complete them.</p>
+<h4 id="perhaps-in-reflection-i-couldve-managed-my-time-better">Perhaps, in reflection, I could've managed my time better.</h4>
+<p>I could've asked all of my questions early, such as by Thursday or Friday night. Friday and Saturday were days I'd made minimal progress on this task, and I'd planned my work for this subject into a set amount of tasks per day. I'd simply run out of days by Monday to run the wargames I'd really wanted to try before the tutorials.</p>
+<h2 id="learning-contract">Learning Contract</h2>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/learning%20portfolio.png" alt="alt text"></p>
 
       </article>
       
@@ -59,9 +105,9 @@
   
   <article class="card-body">
     <h2 class="card-title">About Me</h2>
-    <p class="card-text">The &lsquo;Yellow&rsquo; theme of this blog has a reason. It's connected to my last name, which is Huang - meaning Yellow in Chinese.
-Coincidentally, yellow is also one of my favourite colours - and I'm wearing one of my favourite yellow shirts here!
-My Chinese name (which I unforunately never really use) is 黄天龙 (huang tian long, or &lsquo;Yellow Sky Dragon). An awesome name if I would say so myself, if not also really childish to say out loud!</p>
+    <p class="card-text">Who am I? I'm Tyrone Huang, a 3rd Year UTS student studying I.T and International Studies.
+I'm majoring in Interaction Design, with a submajor in Enterprise Systems Development. These majors meant I trudged through uni doing a ton of coding assignments. It wasnt always fun or particularly interesting for me, and my motivation dipped further and further through the years.
+I started wondering - Do I really want to be a programmer?</p>
     <div class="card-subtext muted-text">
       <p>Posted <time datetime="2020-01-23 123:00">Jan 23, 2020</time></p>
       

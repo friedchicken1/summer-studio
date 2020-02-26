@@ -40,14 +40,65 @@
 </nav>
 
     <main class="content side-text-padding">
-      <article class="post dropcase">
+      <article class="post ">
         <header class="post-header">
         	<h1 class="post-title">Week3</h1>
-          <p class="post-date">Posted <time datetime="2020-01-23">Jan 23, 2020</time></p>
+          <p class="post-date">Posted <time datetime="2020-02-09">Feb 9, 2020</time></p>
         </header>
         
-        <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+        <h2 id="sprint-3-self-study-with-pentesting-and-web-based-attack">Sprint 3: Self-study with pentesting and Web-based Attack</h2>
+<p>This week, I was given an overview document of how to structure my learning by my tutor Jason, and had the time and resources to self-study. I was introduced to OWASP Juice Box and Natas - as testing resources, and worked on a group presentation wherein I detailed one of OWASP's top 10 web vulnerabilities.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/jasonstudypath.png" alt="alt text"></p>
+<h5 id="above-overview-document-from-my-tutor-jason-of-how-to-structure-my-learning">Above: Overview document from my tutor Jason, of how to structure my learning</h5>
+<p>Last week, I'd been disaapointed that I hadn't put my time and resources outside of class to great use. This week, while I'm happy with the amount of effort I put in during classtimes and with my group presentation, I feel like I've frustratingly gone back to the pattern of procrastinating and doing what feels like the minimum outside of classtimes.</p>
+<p>This week involved:</p>
+<ul>
+<li>Introduction to new pen-tester websites and learning resources</li>
+<li>Performing a group presentation detailing Broken Access Controls</li>
+</ul>
+<h3 id="new-learning-resources">New learning resources</h3>
+<p>On Tuesday I was introduced to the OWASP juice box. This was an environment for testing web vulnerabilities, gamified into a list of challenges. Each challenge was ranked from 1 to 3 stars according to difficulty. My initial feeling in working on these challenges was like being thrown into deep water to fend myself – the environment dud bit inherently teach us how to solve its challenges, and the general knowledge I had acquired in the past few weeks did not help me here.
+Alongside my other classmates who seemed to be in the same boat, I used my common sense and what resources I could find off Google and Hacksplaining to solve what challenges I could.</p>
+<p>A challenge I took on was ‘Retrieving the photo of Bjoern's cat in &ldquo;melee combat-mode‘. This challenge meant that I was to reveal an image of a cat in the &lsquo;Photo wall&rsquo; page of the Juice shop website. Currently the image was not displaying, and was replaced by placeholder text.</p>
+<p>I quickly became stuck in this challenge. From what basic tools I knew t o use, I viewed page source and inspected elements on the page. Despite this, I wasn't able to properly interpret everything I read given my limited technical knowledge at this time. From what I could see - I had no idea what to do to reveal the picture, or what was wrong, so I eventually I caved and searched Google for a solution.</p>
+<p>I discovered that while I was inspecting the placeholder for the image, I was to replace instances of # in the url with %23. The answer was that the browser was interpreting these as HTML anchors, rather than part of the URL, and the solution was to URL-encoded as %23. I wouldn't have understood this solution had I not read it, so though I felt guilty for not being able to get it on my own, I felt that this was a viable way for me to learn everything for the first time.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/revealingcat.png" alt="alt text"></p>
+<h5 id="abovethe-cat-image-revealed-leftmost-image">Above:The cat image revealed (leftmost image)</h5>
+<p>The next challenge I undertook was to give the website a 0 star review. For this case, now having the knowledge that things may be amiss if I inspect certain elements on the page, I attempted to inspect individual buttons and rating stars on the page. I found the review submit button was greyed out, and the form would not submit if I did not select any stars (1-5 stars). I thought the problem was with the stars, so I at first attempted to select 1 star, then edit the element html of the star element so that it's highlighted state would change to &lsquo;false&rsquo;.</p>
+<p>Visually, this meant that there were no stars highlighted on my page, and I was also able to submit since I'd previously chosen a star rating from 1-5 stars. However, the change was entirely visual and client-side. and it didn't actually alter the rating that I submitted.</p>
+<p>Temporarily, I was lost for solutions, but overheard my classmate sitting 2 seats away, David, worrying about this challenge as well. We continued interaction with the page, and found that the submit button's state was disabled unless we selected a star rating, wrote a comment and finished the captcha.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/0%20star%20rating.png" alt="alt text"></p>
+<h5 id="above-button-disabled-state-was-true-unless-we-filled-out-these-3-parts-of-the-form">Above: Button disabled state was &lsquo;true&rsquo; unless we filled out these 3 parts of the form</h5>
+<p>Not by editing the stars, but by editing the button's disabled state to &lsquo;false&rsquo; we were able to disable the client-side authentication on the form and submit without touching any star rating. And thus completed the 0 star review challenge.</p>
+<h3 id="access-controls">Access Controls</h3>
+<p>I worked on a group presentation detailing the OWASP web vulnerability of Broken Access Controls, with my fellow members Anthony and Dylan. The presentation was to be given on Thursday morning, and had a time limit of 6 minutes.</p>
+<p>We agreed to use Google teams to communicate, with Anthony recommending Notion to manage our workflows and Dylan insisting on Canvas as our presentation medium. While I knew Canva could not be edited concurrently by multiple people, and I'd never used Notion before, I saw that both were visually appealing applications and were easy and intuitive to use. So I agreed to using both Notion and Canva happily.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/teams.png" alt="alt text"></p>
+<h5 id="above-google-teams-chat-to-facilitate-initial-communication">Above: Google Teams Chat to facilitate initial communication</h5>
+<p>By the end of class on Monday, we'd agreed to meetup on Wednesday to get our assignment knocked out together at uni. The time would be from 10am to whenever we needed, and we'd divied our parts and sorted out what parts we would be working on that day.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/notion.png" alt="alt text"></p>
+<h5 id="above-our-notion-workflow">Above: Our Notion workflow</h5>
+<p>Knowing that, I busied myself with other commitments until Tuesday night, when I finally hopped back onto my desktop and was shocked to see my Google teams full of notifications that I hadn't seen. My teammates had been communicating frequently, and since I'd not had regular access to my desktop - I had seen nothing. I prompt'y installed the Google Teams phone app and continued communication on both Messenger and Teams. We were able to iron out the exact times and booked a study room for the next days work.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/messenger.png" alt="alt text"></p>
+<h5 id="above-messenger-conversation-confirming-our-meetup-time">Above: Messenger conversation confirming our meetup time</h5>
+<p>On Wednesday we came into UTS from 10am and worked until 5am. Around 11am, we discovered that some of our points overlapped, and Dylan had gathered some information that could've been used by Anthony (who was covering &lsquo;What the attack was&rsquo;), who was to explain &lsquo;How our attack worked&rsquo;.</p>
+<p>However, since we had met in person, it took only a short conversation to restate ourpoints and finalise exactly what we were covering. Dylan ended up giving that section to Anthony, and I was able to eliminate parts of my research that I found was being covered by the two of them.</p>
+<p>We used Notion to write our scripts, which let us view each others edits in real time, and share useful URLs we found during research. Canva was only editable by one person at a time, so as we finished our parts, we communicated to each other IRL and took turns to edit the presentation. Despite this inconvenience, we were able to smoothly complete the slides and script, and went home before timing ourselves (we reached about 5:30-5:40 approximately), finalising presentation formatting and checking over a few versions of Anthony's voiced over demo slide.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/impactcanva.png" alt="alt text"></p>
+<h5 id="above-opening-slide-of-my-section-of-the-presentation-in-canva">Above: Opening slide of my section of the presentation in Canva</h5>
+<p>When the presentation came on Thursday, it ran smoothly. We were given 15 minutes prior the presentation to prepare, and that proved essential. We practiced twice, the first time taking roughly 6 min 5 seconds (overtime), and prompting us to cut the fat from our scripts. I was able to identify unnecessary, wordy parts of my presentation and culled them, as did my groupmates, and we cut the second time to 5 minutes and 30 seconds which was more than enough. Overall it was a pleasure to work with Dylan and Anthony in this presentation, and we were able to get everything done and iron things out quite early.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/script.png" alt="alt text"></p>
+<h5 id="above-my-script-on-notion-for-the-presentation-after-the-practice-on-thursday-morning-i-removed-the-example-for-each-escalation-category-to-save-time">Above: My script on Notion for the presentation. After the practice on Thursday morning, I removed the example for each Escalation category to save time.</h5>
+<h3 id="natas-and-self-study">Natas and self study</h3>
+<p>From Thursday to Sunday, I worked on Natas on the OvertheWire website, and used Hacksplaining and OWASP lists to make notes about the basics of Pen testing.Unlike Bandit, Natas did not seem to require Linux, nor for me to run a Virtual machine. Initial levels were solvable by viewing page source, and finding passwords in comments.</p>
+<p>A notable level was Lvl 2, wherein viewing page source didn't immediately give me the password. However, appending /files to the url, and opening the files directory did reveal an additional .txt file that contained the password.
+<img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/lvl%203.png" alt="alt text"></p>
+<p>I hit a wall with Lvl 3, where the page source and page revealed nothing at all. Having been recommended to try Burp (which I had not touched as of yet), I spent the final hour or so of class installing said application. Initially, I was confused as to how intercept worked, and was frustrated when I couldn't open any webpages while I had Burp running and my proxy enabled. After asking my tutor Larry, I found that it was infact an intended functionality to read and intercecpt traffic, and I was to forward through all of the intercepted traffic before I reached a webpage. I tested this on Youtube, and while slow, it did work as intended. Having achieved this, I packed up and went home.</p>
+<p>Therein lay my mistake. After Thursday, I feel that I failed to schedule a time each day to dedicate myself to learning Pen testing. Come Sunday, I found that the guilt of not having done anything for the past 3 days was killing me, so I told myself to start off easy - and following from Jason's recommended study path, took notes detailing OWASP's top 10 and ran through a bit of Hackersplain.</p>
+<p><img src="https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/3/notes.png" alt="alt text"></p>
+<h3 id="problem-lies-in-scheduling-and-motivation">Problem lies in scheduling and motivation</h3>
+<p>While I'm overall satisfied with my in-class efforts and group contribution from Monday-Thursday, I'm wholly unsatisfied with how much I studied outside of class, from Thurs-Sun. I wanted to work on my practical skills much more, and make discernable progress in a pentester testing lab of some sort, as I feel my practical skills are still preliminary.</p>
+<p>I was able to increase my understanding of Web application pen testing and web vulnerabilities thanks to research his week. But I feel that my practical skills are behind, and will continue to lag behind my cohort if I do not regularly commit myself to study from now on. The next week may be rough if any new tools are introduced, and if I don't force myself to catch up and learn at a consistent pace.</p>
 
       </article>
       
@@ -59,9 +110,11 @@
   
   <article class="card-body">
     <h2 class="card-title">Week2</h2>
-    <p class="card-text"></p>
+    <p class="card-text">Sprint 2: Presentations and lots of learning! Compared to last week, when I was overwhelmed from exposure to everything for the first time, this week I’ve been able to expand my basic knowledge about this field and develop an idea of what cybersecurity looks like.
+This week involved:
+ Guest speakers who provided valuable insights about their tools and their work Performed a group presentation detailing the Nikto Tool Began to learn via hacking wargames website: OverTheWire.</p>
     <div class="card-subtext muted-text">
-      <p>Posted <time datetime="2020-01-23 123:00">Jan 23, 2020</time></p>
+      <p>Posted <time datetime="2020-02-02 22:00">Feb 2, 2020</time></p>
       
     </div>
   </article>

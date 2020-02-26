@@ -5,11 +5,45 @@
     <description>Recent content on Yellow Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2020 14:04:47 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 14:04:31 +1100</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Biohazard</title>
+      <link>/writeup4/</link>
+      <pubDate>Sun, 16 Feb 2020 14:04:31 +1100</pubDate>
+      
+      <guid>/writeup4/</guid>
+      <description>Biohazard This writeup is still a work in progress. I’ve spent daily sessions of 2-3 hours.(including procrastination) for 3 days with my friend and classmate Dylan Tchan working through this box. We both are relatively new to pentesting and are going through everything for almost the first time.
+As of now, we have yet to complete this box, but we aim to complete it soon!
+This challenge may be found here Note: Ip Addresses in the URL may change, as the box was redeployed several times throughout the course of this writeup Starting from the Biohazard webpage on TryHackMe.</description>
+    </item><item>
+      <title>Week4</title>
+      <link>/week4/</link>
+      <pubDate>Sun, 16 Feb 2020 14:04:31 +1100</pubDate>
+      
+      <guid>/week4/</guid>
+      <description>Sprint 3: Writeup of a boot2root machine This week, we were assigned to choose one vulnerable VM to exploit and get root user on. This was the week to really get my hands dirty, and where I would learn a few practical skills on hacking.
+Last week, I&#39;d vowed to be more consistent with my work, and to catchup with Bandit and Natas in any spare time that I had. This week, I was able to fit in a little more consistency with my work, and found that I really had my hands full with pentesting.</description>
+    </item><item>
+      <title>Week3</title>
+      <link>/week3/</link>
+      <pubDate>Sun, 09 Feb 2020 14:04:31 +1100</pubDate>
+      
+      <guid>/week3/</guid>
+      <description>Sprint 3: Self-study with pentesting and Web-based Attack This week, I was given an overview document of how to structure my learning by my tutor Jason, and had the time and resources to self-study. I was introduced to OWASP Juice Box and Natas - as testing resources, and worked on a group presentation wherein I detailed one of OWASP&#39;s top 10 web vulnerabilities.
+Above: Overview document from my tutor Jason, of how to structure my learning Last week, I&#39;d been disaapointed that I hadn&#39;t put my time and resources outside of class to great use.</description>
+    </item><item>
+      <title>Week2</title>
+      <link>/week2/</link>
+      <pubDate>Sun, 02 Feb 2020 14:04:27 +1100</pubDate>
+      
+      <guid>/week2/</guid>
+      <description>Sprint 2: Presentations and lots of learning! Compared to last week, when I was overwhelmed from exposure to everything for the first time, this week I’ve been able to expand my basic knowledge about this field and develop an idea of what cybersecurity looks like.
+This week involved:
+ Guest speakers who provided valuable insights about their tools and their work Performed a group presentation detailing the Nikto Tool Began to learn via hacking wargames website: OverTheWire.</description>
+    </item><item>
       <title>Week6</title>
       <link>/week6/</link>
       <pubDate>Thu, 23 Jan 2020 14:04:47 +1100</pubDate>
@@ -24,33 +58,14 @@
       <guid>/week5/</guid>
       <description></description>
     </item><item>
-      <title>Week4</title>
-      <link>/week4/</link>
-      <pubDate>Thu, 23 Jan 2020 14:04:40 +1100</pubDate>
-      
-      <guid>/week4/</guid>
-      <description></description>
-    </item><item>
-      <title>Week3</title>
-      <link>/week3/</link>
-      <pubDate>Thu, 23 Jan 2020 14:04:31 +1100</pubDate>
-      
-      <guid>/week3/</guid>
-      <description></description>
-    </item><item>
-      <title>Week2</title>
-      <link>/week2/</link>
-      <pubDate>Thu, 23 Jan 2020 14:04:27 +1100</pubDate>
-      
-      <guid>/week2/</guid>
-      <description></description>
-    </item><item>
-      <title>Week1</title>
+      <title>Week 1</title>
       <link>/week1/</link>
       <pubDate>Thu, 23 Jan 2020 14:04:22 +1100</pubDate>
       
       <guid>/week1/</guid>
-      <description></description>
+      <description>Sprint 1: Creating a Blog In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.
+I&#39;d never created a blog before, and initially I was pretty confused as to where to start and what this involved.
+Thinking about Installation As with working with anything I.T related for the first time, there were many things to install before I could even begin on my actual work and blog content.</description>
     </item>
   </channel>
 </rss>
