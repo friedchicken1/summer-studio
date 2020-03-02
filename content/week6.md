@@ -50,7 +50,7 @@ On Wednesday night, I informed my group that I wouldn't be able to attend the Sh
 
 While devastated that I would not be able to attend what felt like the natural conclusion of my Summer Studio experience, I'd still done my best to contribute to my group's preparation on that night.
 
-![alt text]https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/enumerationslide.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/enumerationslide.png))
 #### Above: One of the slide's I'd created, aimed to be as succinct for ease of understanding from onlookers
 
 On Thursday, I was thus unable to attend the Summer Studio Showcase, and recovered at home. With the showcase passing without my attendance, I rested and did not make meaningful progress until Friday night and Saturday, where I was able to make decent progress in Traverxec and ultimately find root. As with the previous week, I was able to work with classmate Dylan to research exploits to enter the system and find vulnerable files within the system. We used a Discord call to communicate, and Hayden and Nick regularly joined and worked through it with us. I really felt like I was able to learn better with all of our minds working together.

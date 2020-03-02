@@ -28,8 +28,11 @@ The more I was exposed to, the greater my scope grew, and the research I needed 
 #### Above: Pentesting Procedure as depicted in tutorial slides
 
 I found myself regularly applying this procedure as I went through more complicated boxes in TryHackMe and HackTheBox. While there are many variations of this procedure (Enumeration, Exploitation, Escalation), they boil down to using certain tools to achieve information gathering or exploitations at certain stages.
+
 Enumeration: nmap, netdiscover, gobuster/wfuzz
+
 Exploitation: reverse shells, SQL injection
+
 Escalation: sudo, cron jobs
 
 ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
