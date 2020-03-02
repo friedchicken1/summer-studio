@@ -20,6 +20,9 @@ We were ready to begin work on our respective boxes positively and smoothly orga
 
 I began to work on the box Traversec on HacktheBox (which caught me off guard as it began slightly differently to OpenAdmin), and joined a group with Hayden, Dylan and Nick to present upon the box we'd completed last week (OpenAdmin) for the showcase. We assigned portions of the pentesting process to cover from the '3 Es' (Enumeration, Exploitation and Escalation) to even the workload amongst members and agreed to meet again on Tuesday to lock down everything for the presentation.
 
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/script.png)
+#### Above: Script for Enumeration portion of presentation
+
 I and other group members had been previously been informed by our tutors of the nature of the showcase; of how our onlookers would be constantly coming and going, and were people with varying levels of knowledge of pentesting. 
 
 Our audience wouldn't typically be predisposed to long conversations about how the box worked in detail, in fact the opposite - they would likely be overwhelmed by a lot of information if they weren't familiar with the subject. We had to capture their attention and show them something interesting before they moved on with their day!
@@ -32,7 +35,10 @@ However, it was decided soon after the meeting that Hayden, who had the most exp
 
 However, during the meeting, I'd begun to develop a quite bad sniffle, and felt increasingly cold despite warm temperatures on the day. I'd originally planned to attend the Sectalks Ninja Night event that night - a Capture the Flag event periodically hosted at Google - but I felt like I was in no condition to attend after our group meeting. While I'd RSVPED over a week prior, I sadly cancelled it before heading home early.
 
-I found by the next day that the sniffles had developed into a cold, and I was especially sick and feverish for the mext two days. I had some difficulty working on my part for the presentation and Traversec challenge, due to some headaches and constant sniffling. Before the end of Wednesday, I'd gone for a checkup with my local GP where I was diagnosed with a common cold. I was able to obtain a medical certificate and would be able to recover from home until later that week - but this meant that I would be unable to attend the Summer Studio Showcase.
+I found by the next day that the sniffles had developed into a cold, and I was especially sick and feverish for the next two days. I had some difficulty working on my part for the presentation and Traversec challenge due to some headaches and constant sniffling. Before the end of Wednesday, I'd gone for a checkup with my local GP where I was diagnosed with a common cold. I was able to obtain a medical certificate and contacted my tutor Larry on whether I should still attend the Showcase.
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/medical%20cert.png)
+
+ would be able to recover from home until later that week - but this meant that I would be unable to attend the Summer Studio Showcase.
 
 While devastated that I would not be able to attend what felt like the natural conclusion of my Summer Studio experience, I did my best to contribute to my group's preparation as best as I still could. On Wednesday night, I attended the group's final Discord call before the day, and contributed by creating and writing content for our group's slides on Canva.
 
