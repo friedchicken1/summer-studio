@@ -1,10 +1,10 @@
 ---
 title: "Week6"
-date: 2020-03-02T14:04:47+11:00
+date: 2020-03-01T14:04:47+11:00
 draft: false
 dropCap: false
 ---
-# Sprint 6: Tackling Traversec
+# Sprint 6: Tackling Traverxec
 This week was the last week of the Summer Studio, and was filled with the chaos of finishing another HacktheBox challenge, preparing to present at UTS's Summer Studio showcase, and writing final writeups, reflections and portfolios before a final due date.
 
 As I was struck by sudden illness during the week, I found it difficult to juggle, and was off schedule until the end.
@@ -18,7 +18,7 @@ By Monday, I and other students in the class were well accustomed to the rhythmn
 
 We were ready to begin work on our respective boxes positively and smoothly organised ourselves into groups to present on Thursday for the Summer Studio Showcase.
 
-I began to work on the box Traversec on HacktheBox (which caught me off guard as it began slightly differently to OpenAdmin), and joined a group with Hayden, Dylan and Nick to present upon the box we'd completed last week (OpenAdmin) for the showcase. We assigned portions of the pentesting process to cover from the '3 Es' (Enumeration, Exploitation and Escalation) to even the workload amongst members and agreed to meet again on Tuesday to lock down everything for the presentation.
+I began to work on the box Traverxec on HacktheBox (which caught me off guard as it began slightly differently to OpenAdmin), and joined a group with Hayden, Dylan and Nick to present upon the box we'd completed last week (OpenAdmin) for the showcase. We assigned portions of the pentesting process to cover from the '3 Es' (Enumeration, Exploitation and Escalation) to even the workload amongst members and agreed to meet again on Tuesday to lock down everything for the presentation.
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/script.png)
 #### Above: Script for Enumeration portion of presentation
@@ -36,7 +36,7 @@ However, it was decided soon after the meeting that Hayden, who had the most exp
 However, during the meeting, I'd begun to develop a quite bad sniffle, and felt increasingly cold despite warm temperatures on the day. I'd originally planned to attend the Sectalks Ninja Night event that night - a Capture the Flag event periodically hosted at Google - but I felt like I was in no condition to attend after our group meeting. While I'd RSVPED over a week prior, I sadly cancelled it before heading home early.
 
 
-I found by the next day that the sniffles had developed into a cold, and I was especially sick and feverish for the next two days. I had some difficulty working on my part for the presentation and Traversec challenge due to some headaches and constant sniffling. Before the end of Wednesday, I'd gone for a checkup with my local GP where I was diagnosed with a common cold. I was able to obtain a medical certificate and contacted my tutor Larry on whether I should still attend the Showcase. 
+I found by the next day that the sniffles had developed into a cold, and I was especially sick and feverish for the next two days. I had some difficulty working on my part for the presentation and Traverxec challenge due to some headaches and constant sniffling. Before the end of Wednesday, I'd gone for a checkup with my local GP where I was diagnosed with a common cold. I was able to obtain a medical certificate and contacted my tutor Larry on whether I should still attend the Showcase. 
 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/medical%20cert.png)
 #### Above: Communication with Larry about attendance to the Showcase
@@ -53,9 +53,9 @@ While devastated that I would not be able to attend what felt like the natural c
 ![alt text]https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/6/enumerationslide.png)
 #### Above: One of the slide's I'd created, aimed to be as succinct for ease of understanding from onlookers
 
-On Thursday, I was thus unable to attend the Summer Studio Showcase, and recovered at home. With the showcase passing without my attendance, I rested and did not make meaningful progress until Friday night and Saturday, where I was able to make decent progress in Traversec and ultimately find root. As with the previous week, I was able to work with classmate Dylan to research exploits to enter the system and find vulnerable files within the system. We used a Discord call to communicate, and Hayden and Nick regularly joined and worked through it with us. I really felt like I was able to learn better with all of our minds working together.
+On Thursday, I was thus unable to attend the Summer Studio Showcase, and recovered at home. With the showcase passing without my attendance, I rested and did not make meaningful progress until Friday night and Saturday, where I was able to make decent progress in Traverxec and ultimately find root. As with the previous week, I was able to work with classmate Dylan to research exploits to enter the system and find vulnerable files within the system. We used a Discord call to communicate, and Hayden and Nick regularly joined and worked through it with us. I really felt like I was able to learn better with all of our minds working together.
 
-Traversec was significantly easier than OpenAdmin as a whole, and I was greatly aided by the knowledge and commands I'd learnt from cracking OpenAdmin the week before. Due to the similarity of many parts of these two boxes, I found that I took almost less than half the time I'd taken to crack OpenAdmin to crack Traversec this week, though I was stuck on the gimmicky nature of finding root for quite some time.
+Traverxec was significantly easier than OpenAdmin as a whole, and I was greatly aided by the knowledge and commands I'd learnt from cracking OpenAdmin the week before. Due to the similarity of many parts of these two boxes, I found that I took almost less than half the time I'd taken to crack OpenAdmin to crack Traverxec this week, though I was stuck on the gimmicky nature of finding root for quite some time.
 
 However having achieved root by Saturday night, I was able to rejoice thatI'd accomplished all the pentesting I'd needed to do for this subject, and able to begin to to focus on more literary components. Though I had a prior commitment on Sunday, I had all of Monday to polish up my reflections, writeups and begin my final portfolio for this studio! - and I had mostly recovered from my cold by then and was in a healthy physical state too.
 
@@ -66,13 +66,13 @@ There were many commands (especially the multi-lined netcat remote code executio
 ### A busy week, and I was unable to address my weaknesses from previous weeks.
 I feel like this was quite an unfortunate week, and my schedule was thrown off quite early by my sickness. This meant that I was unable to work everyday on my box as I'd resolved to in earlier weeks, and I was able to make meaningful progress only at a later date in the week after recovering adequately.
 
-As an improvement over last week however, I was able to overcome Traversec in much less time, and regardless of my resolution to work through a box alone last week, I ultimately learnt a lot through mutual research and cooperation with classmates this week. I found that there were incredibly resilient, positive mindsets to keep presssing problems, and a spirit of cooperation in working together to find exploits that I was exposed to and benefitted from only because I had the privilege of working on the box alongside others. I myself was surprised with the speed that I learned and progress thanks to this.
+As an improvement over last week however, I was able to overcome Traverxec in much less time, and regardless of my resolution to work through a box alone last week, I ultimately learnt a lot through mutual research and cooperation with classmates this week. I found that there were incredibly resilient, positive mindsets to keep presssing problems, and a spirit of cooperation in working together to find exploits that I was exposed to and benefitted from only because I had the privilege of working on the box alongside others. I myself was surprised with the speed that I learned and progress thanks to this.
 
 Three resolves from previous weeks lay unachieved:
 1. To work through a box entirely with my 'own' power and research. 
 2. To complete work at a consistent rate throughout the week
 3. Achieve more communication with stakeholders, including tutors but also presenters/attendees to the Showcase 
 
-It's a shame that this last week brings with it a lack of resolution to these three things. Now that the studio is coming to a close, I wish there was another week for me to prove to myself that I could overcome these resolutions! But ultimately, I'm happy with the fact that I was able to successfully crack Traversec and contribute adequately to my group's presentation this week this week - if not for my illness I could've done this and more!
+It's a shame that this last week brings with it a lack of resolution to these three things. Now that the studio is coming to a close, I wish there was another week for me to prove to myself that I could overcome these resolutions! But ultimately, I'm happy with the fact that I was able to successfully crack Traverxec and contribute adequately to my group's presentation this week this week - if not for my illness I could've done this and more!
 
 

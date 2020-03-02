@@ -19,7 +19,9 @@ In relation to that, my biggest shock from Pieter and Nathan's presentation was 
 The problem, I've found after listening to all these experts - is the extricable link between red teamers who 'attack', and blue teamers who 'defend', in creating something that is secure and 'impregnable.' There is no denying the significance of an 'Offensive Mindset' in cybersecurity when attempting to create something impregnable and secure.
 
 ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
-My understanding of challenges and ways to tackle them changed greatly throughout the course of this subject.
+My understanding of challenges and ways to tackle them changed greatly throughout the course of this subject. Each week, my understanding of how the pentesting process changed slightly and slightly as I was exposed to each and every step carefully, until I came to understand that 
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/process.png)
+#### Above: Pentesting Procedure as depicted in tutorial slides
 
 ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
 Week 2:
