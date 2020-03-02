@@ -46,6 +46,9 @@ Nathan and Pieter came in and explained their jobs. Their presentation involved 
 
 From Thursday to Sunday, I made steady progress on OpenAdmin. There were many times I became stumped on the usage of certain commands or what files to look for. My saving grace was being pointed many times in the right direction by classmates such as Dylan and Hayden, who helpfully pointed out that some exploits were plastered as the first search result on Google. They also hinted heavily when I was stumped on my direction upon reaching flags and sort of commands I would need to use next.
 
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/5/discord.png)
+##### Above: Getting some hints from Dylan
+
 Thanks to this I was able to get user.txt on the box by Sunday morning (after being stuck since mid-Saturday), and got root in approximately 20 minutes after some pointers on Monday morning. I’d probably spent 3-4 hours each day since Thursday just staring and looking at semi-relevant documentation on Google, but I each hint I got accelerated my process tenfold it seemed. 
 
 ### Thinking back on how much help I got...
