@@ -22,10 +22,12 @@ The problem, I've found after listening to all these experts - is the extricable
 ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
 My understanding of challenges and ways to tackle them changed greatly throughout the course of this subject. Each week, my understanding of how the pentesting process changed slightly as I was exposed to pentesting slowly, learning firstly unix commands from Bandit and Natas, of Web Vulnerabilities from OWASP, until I became familiar with tackling CTF challenges from TryHackMe and HackTheBox.
 
-  each and every step carefully, until I came to understand that 
+The more I was exposed to, the greater the complexities grew, and the research I needed to complete each step increased exponentially. What began at straightforward as entering a system with a provided password, and learning the 'ssh' command in bandit lvl 1, soon became an interation through the greater structure of pentesting as a whole: 
+
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/process.png)
 #### Above: Pentesting Procedure as depicted in tutorial slides
 
+I found myself regularly applying this procedure as I went through more complicated boxes in TryHackMe and HackTheBox
 ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
 Week 2:
 Week 3:
