@@ -29,8 +29,8 @@ The more I was exposed to, the greater my scope grew, and the research I needed 
 
 I found myself regularly applying this procedure as I went through more complicated boxes in TryHackMe and HackTheBox. While there are many variations of this procedure (Enumeration, Exploitation, Escalation), they boil down to using certain tools to achieve information gathering or exploitations at certain stages.
 Enumeration: nmap, netdiscover, gobuster/wfuzz
-Exploitation: 
-Escalation: sudo
+Exploitation: reverse shells, SQL injection
+Escalation: sudo, cron jobs
 
 ## SLO 3 - Apply technical skills to develop, model and/or evaluate design
 I found that in this studio, I was given every opportunity and resource to succeed, with the tutors just one message/call away for aid. Each and every week, I was challenged to tackle something entirely new, feeling entirely out of my depth each time, and yet I was somehow able to push myself and overcome it every single week. Now that I look back on it, I've come a far way in terms of technical skills and self-expectations.
@@ -111,3 +111,5 @@ While I spent a lot of time reflecting on my shortcomings of last week, I never 
 
 # Conclusion
 I really did learn so much in these 6 weeks, achieved and learnt far more than I thought I could have, and was able to thrive in an environment which was so open, friendly and helpful (with both students and teachers). I feel like I haven't experienced such a class in UTS ever before, where knowledge was so freely shared, introspection so valued and progress so celebrated.
+
+At the start of this studio, I'd told myself I wanted to reach a level where I was technically competent enough to either know whether I wanted to continue studying cybersecurity or no, and honestly, I don't think I'm at that level yet. So far, all I've breached is seemingly the surface, with my first taste at easy level boxes on HacktheBox. But I feel like there is so much more for me to see and learn with pentesting. And I think I can definitely say that I have so much more confidence to keep going compared to where I started out, and I'm honestly happy to explore this into a career path, to try out CTFs and more boxes in the future. 
