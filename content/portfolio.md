@@ -5,6 +5,7 @@ draft: false
 dropCap: false
 ---
 ## Who am I?
+
 I'm Tyrone Huang, a 3rd Year UTS student studying I.T and International Studies. I'm majoring in Interaction Design, with a submajor in Enterprise Systems Development. I pushed myself to take this Summer Studio relating to Cyber Security to expand my horizons outside of programming subjects, and to test the waters in which career path I would like to take in the future!
 ---
 ## SLO 1 - Engage with stakeholders to identify a problem
@@ -19,7 +20,9 @@ In relation to that, my biggest shock from Pieter and Nathan's presentation was 
 The problem, I've found after listening to all these experts - is the extricable link between red teamers who 'attack', and blue teamers who 'defend', in creating something that is secure and 'impregnable.' There is no denying the significance of an 'Offensive Mindset' in cybersecurity when attempting to create something impregnable and secure.
 
 ## SLO 2 - Apply design thinking to respond to a defined or newly identified problem
-My understanding of challenges and ways to tackle them changed greatly throughout the course of this subject. Each week, my understanding of how the pentesting process changed slightly and slightly as I was exposed to each and every step carefully, until I came to understand that 
+My understanding of challenges and ways to tackle them changed greatly throughout the course of this subject. Each week, my understanding of how the pentesting process changed slightly as I was exposed to pentesting slowly, learning firstly unix commands from Bandit and Natas, of Web Vulnerabilities from OWASP, until I became familiar with tackling CTF challenges from TryHackMe and HackTheBox.
+
+  each and every step carefully, until I came to understand that 
 ![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/4/process.png)
 #### Above: Pentesting Procedure as depicted in tutorial slides
 
