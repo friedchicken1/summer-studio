@@ -1,21 +1,40 @@
-baseURL = "/"
-languageCode = "en-us"
-name = "aether"
-theme = "aether"
-license = "MIT"
-title = "Yellow Blog"
-licenselink = "https://github.com/josephhutch/aether/blob/master/LICENSE.md"
-description = "aether is a blog theme that emphasizes motion, material, and depth as design elements to highlight the content of your site"
-homepage = "https://github.com/josephhutch/aether"
-tags = ["Blog", "Personal", "Responsive", "Minimal", "Simple", "Clean", "Modern", "Technical", "Syntax highlighting", "Google analytics", "Disqus", "Material Design"]
-features = ["Responsive", "Highlight.js", "KaTeX", "Google analytics", "Disqus"]
-min_version = "0.41"
+baseurl                  = " /"           # Your domain name. Must end with "/"
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Yellow Blog"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
 
 [params]
-brand = "Tyrone Huang"
-description = "A blog styled as my last name"
-bgimg = "https://www.solidbackgrounds.com/images/2560x1440/2560x1440-royal-yellow-solid-color-background.jpg"
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "main"                           # What to call the home page link
+    footerText           = "Call me Sam, a theme for Hugo."
 
-[author]
-name = "Joe Hutchinson"
-homepage = "https://www.joehutch.com"
+# Metadata for Open Graph and Twitter
+    description          = "A new Hugo site."               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Call me Sam"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
+
+[[params.mainMenu]]
+    link = "/gallery"
+    text = "gallery"
+
+[[params.mainMenu]]
+    link = "/portfolio"
+    text = "portfolio"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "who is sam?"
+
+[imaging]
+    quality = 75
