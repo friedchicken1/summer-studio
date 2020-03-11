@@ -1,8 +1,10 @@
 ---
-title: "Week 1"
+title: "Summer Studio: Week 1"
 date: 2020-01-23T14:04:22+11:00
 draft: false
 dropCap: false
+- name: featuredImage
+  src: "Filename of the post's featured image, used as the card image and the image at the top of the article"
 ---
 ## Sprint 1: Creating a Blog
 In this first week of the Cybersecurity Summer Studio, I was tasked with creating a blog to record my thoughts and reflections for the following weeks.

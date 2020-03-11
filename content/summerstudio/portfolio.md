@@ -1,10 +1,10 @@
 ---
-title: "Final Portfolio"
+title: "Summer Studio: Final Portfolio"
 date: 2020-03-02T14:04:27+11:00
 draft: false
 dropCap: false
 ---
-## Who am I?
+## One more time - Who am I?
 
 I'm Tyrone Huang, a 3rd Year UTS student studying I.T and International Studies. I'm majoring in Interaction Design, with a submajor in Enterprise Systems Development. I pushed myself to take this Summer Studio relating to Cyber Security to expand my horizons outside of programming subjects, and to test the waters in which career path I would like to take in the future!
 

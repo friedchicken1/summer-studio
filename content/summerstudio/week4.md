@@ -1,6 +1,5 @@
-
 ---
-title: "Week4"
+title: "Summer Studio: Week4"
 date: 2020-02-16T14:04:31+11:00
 draft: false
 dropCap: false

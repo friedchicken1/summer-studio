@@ -7,7 +7,7 @@ displayInList: false
 dropCap: false
 ---
 
-![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/test.png)
+![alt text](https://raw.githubusercontent.com/friedchicken1/summer-studio/master/data/img/1/test.png)
 
 
 
